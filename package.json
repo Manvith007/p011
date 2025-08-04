@@ -7,7 +7,6 @@
     "url": "https://github.com/Manvith007/p011.git"
   },
   "scripts": {
-    "predeploy": "npm run build || echo No build step",
     "deploy": "gh-pages -d ."
   }
 }
