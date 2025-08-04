@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthcare Services - Sliding Photos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="menu-toggle" id="menuToggle">
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <!-- Navigation Menu -->
+            <nav class="nav-menu" id="navMenu">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <h1 class="header-title">My Website</h1>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Welcome Section -->
+        <section class="welcome-section">
+            <h2>Welcome to Our Healthcare Services</h2>
+            <p>At My Website, we are dedicated to providing top-quality healthcare services to our community. Our team of experienced professionals is committed to your well-being and health.</p>
+        </section>
+
+        <!-- Sliding Photos Section -->
+        <section class="sliding-photos-section">
+            <div class="slider-container">
+                <div class="slider-track" id="sliderTrack">
+                    <div class="slide">
+                        <img src="https://images.unsplash.com/photo-1505751172876-fa1923c5c528?w=800&h=600&fit=crop" 
+                             onerror="this.src='https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=400&h=300&fit=crop'" 
+                             alt="General Checkup">
+                        <div class="slide-content">
+                            <h3>General Checkup</h3>
+                            <p>Comprehensive health assessments to keep you in optimal condition.</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="https://images.unsplash.com/photo-1582750433449-648ed127bb54?w=400&h=300&fit=crop" 
+                             onerror="this.src='https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=400&h=300&fit=crop'" 
+                             alt="Pediatric Care">
+                        <div class="slide-content">
+                            <h3>Pediatrics</h3>
+                            <p>Specialized care for infants, children, and adolescents.</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=400&h=300&fit=crop" 
+                             onerror="this.src='https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=400&h=300&fit=crop'" 
+                             alt="Cardiology">
+                        <div class="slide-content">
+                            <h3>Cardiology</h3>
+                            <p>Advanced heart care and treatment from expert cardiologists.</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=400&h=300&fit=crop" 
+                             onerror="this.src='https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=400&h=300&fit=crop'" 
+                             alt="Emergency Care">
+                        <div class="slide-content">
+                            <h3>Emergency Care</h3>
+                            <p>24/7 emergency services to handle urgent medical situations.</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?w=800&h=600&fit=crop" 
+                             onerror="this.src='https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=400&h=300&fit=crop'" 
+                             alt="Advanced Technology">
+                        <div class="slide-content">
+                            <h3>Advanced Technology</h3>
+                            <p>State-of-the-art medical equipment for accurate diagnostics.</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="https://images.unsplash.com/photo-1526256262350-7da7584cf5eb?w=800&h=600&fit=crop" 
+                             onerror="this.src='https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=400&h=300&fit=crop'" 
+                             alt="Patient Care">
+                        <div class="slide-content">
+                            <h3>Patient Care</h3>
+                            <p>Compassionate care with a focus on patient comfort and recovery.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Navigation Arrows -->
+            <button class="slider-nav prev" id="prevBtn">&lt;</button>
+            <button class="slider-nav next" id="nextBtn">&gt;</button>
+            
+            <!-- Dots Indicator -->
+            <div class="slider-dots" id="sliderDots"></div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>Thank you for Visiting</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 

@@ -1,0 +1,13 @@
+{
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Manvith007/p011.git"
+  },
+  "scripts": {
+    "predeploy": "npm run build || echo No build step",
+    "deploy": "gh-pages -d ."
+  }
+}
